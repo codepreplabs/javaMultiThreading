@@ -1,4 +1,4 @@
-package com.codepreplabs.usingRunnable;
+package com.codepreplabs.usingrunnable;
 
 public class UsingRunnable implements Runnable {
 
@@ -6,7 +6,7 @@ public class UsingRunnable implements Runnable {
 
 		for (int i = 0; i < 15; i++) {
 			try {
-				System.out.println("Thread with is: "
+				System.out.println("Thread with id: "
 						+ Thread.currentThread().getName() + " running" + i);
 				Thread.sleep(500);
 			} catch (InterruptedException e) {

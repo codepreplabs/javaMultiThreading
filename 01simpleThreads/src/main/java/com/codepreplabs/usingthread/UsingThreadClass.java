@@ -7,7 +7,7 @@ public class UsingThreadClass extends Thread {
 
 		for (int i = 0; i < 15; i++) {
 			try {
-				System.out.println("Thread with is: "
+				System.out.println("Thread with id: "
 						+ Thread.currentThread().getName() + " running" + i);
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
